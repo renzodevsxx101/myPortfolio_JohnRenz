@@ -11,7 +11,8 @@ body {
 }
 
 .container {
-	background-color: rgb(255, 255, 255);
+	backdrop-filter: blur(10px);
+	background: transparent;
 	padding: 60px 0 ;
 	border-radius: 15px;
 	display: flex;
@@ -31,15 +32,11 @@ margin-top: 0;
 
 input[type="text"],
 input[type="password"],
-input[type="submit"] {
+ {
     margin: 15px 0;
     width: 100%;
     padding: 10px 10px;
-    border: none;
-    border-bottom: 1px solid #ccc;
-    background: transparent;
     font-size: 16px;
-    border-bottom-width: 2px;
 }
 
 input[type="submit"] {
