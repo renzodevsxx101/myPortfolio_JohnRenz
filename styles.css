@@ -6,8 +6,9 @@ body {
 	padding: 10px;
 	background-color: rgb(192, 192, 192);
 	background-image: url('https://image.slidesdocs.com/responsive-images/background/revamp-your-social-media-and-website-with-a-striking-3d-rendering-of-greeces-online-shopping-scene-powerpoint-background_c485b57eef__960_540.jpg');
-    background-size: cover;
-    background-repeat: no-repeat; 
+        background-size: cover;
+        background-repeat: no-repeat; 
+	min-height: 100vh;
 }
 
 .container {
