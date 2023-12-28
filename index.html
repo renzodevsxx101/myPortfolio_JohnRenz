@@ -275,7 +275,7 @@
 
 		}
 
-		@media screen and (max-width: 992px) {
+		@media (min-width: 768px) and (max-width: 1024px) {
 			.close {
 				display: block;
 				font-size: 1 rem;
@@ -301,8 +301,12 @@
 				padding: 0 10px 0 10px;
 			}
 
-			.feature-img.anim {
-				display: none;
+			.feature-img {
+				display: flex;
+				align-self: center;
+				flex-direction: column;
+				height: auto;
+				max-width: 20%;
 			}
 		}
 	</style>
